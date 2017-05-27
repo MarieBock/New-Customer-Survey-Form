@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<html>
+    <head>    
+    	<link rel="stylesheet" type="text/css" href="index.css">
+    	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>Free Consultation</title>
+         
+    </head>
+
+<body>
+
+    <div class="container">
+        <form id="survey-form" action="/action_page.php">
+    	<div class="row">
+    		<div class="col-xs-12 text-center">    
+    			<h1 id="title">Get Your Free Consultation</h1>
+			</div>
+        
+      </div>
+		
+        <div class="row">
+          <div class="col-sx-12 welcome">
+            <p id="description">Sign up today for your personalized consultation with one of our product specialist.  We will contact you within 24-48 hours.  We look forward to working with you!</p>
+          </div>
+          </div>
+    <fieldset>
+    	<legend></legend>
+    
+ 		<div class="row">  
+    		<div class="col-xs-12 text-center">
+    			<label for="companyname">Company Name:</label>
+    			<input id="companyname" type="text" placeholder="ABC Global Inc">
+    		</div>
+    	</div>
+    	
+    	<div class="row">
+    		<div class="col-xs-12 text-center">
+    			<label for="name-label" id="name-label">Your Name:</label>
+    			<input id="name" type="text" required placeholder="John Smith">
+    		</div>
+    	</div>
+    	
+    	<div class="row">
+    		<div class="col-xs-12 text-center">
+    			<label for="email-label" id="email-label">Email Address:</label>
+    			<input id="email" type="email" required placeholder="John@ABCGlobal.com">
+    		</div>
+    	</div>
+    	
+    	<div class="row">
+    		<div class="col-xs-12 text-center">
+    			<label for="number-label" id="number-label">Phone Number:</label>
+    			<input id="number" type="number" min="10" max="10" placeholder="123-456-7890">
+    		</div>
+    	</div>
+  
+		<div class="row">
+        <div class="col-xs-12 text-center">
+          <label for="industry" id="industry-label">Industry:</label>
+           <select id="dropdown">
+            <option value="attractions">Attractions</option>
+            <option value="food">Food service</option>
+            <option value="retail">Retail</option>
+            <option value="other">Other</option>
+          </select>
+      </div>
+     </div>
+
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <label for="companysize">Company Size:</label>
+            <input type="radio" name="size" value="under250">Under 250
+          <input type="radio" name="size" value="over250"> Over 250
+        
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <label for="comment">Comment:</label>
+          <textarea></textarea>
+        </div>
+      </div>
+</fieldset>
+
+ 
+<fieldset>
+  <div class="row">
+    <div class="col-xs-12 text-center">
+	<legend class="description">Product Interest</legend>
+    </div>
+	<div class="row">
+    <div class="col-xs-12 text-center product">
+		<input type="checkbox" id="timeclock" name="product" value="timeclock">
+		<label for="timeclock">Time clock</label>
+	</div>
+  </div>
+
+	<div class="row">
+    <div class="col-xs-12 text-center product">
+		<input type="checkbox" id="counterfeitdetector" name="product" value="counterfeitdetector">
+		<label for="counterfeitdetector">Counterfeit detector</label>
+	</div>
+    </div>
+	
+	<div class="row">
+    <div class="col-xs-12 text-center product">
+		<input type="checkbox" id="moneyscale" name="product" value="moneyscale">
+		<label for="moneyscale">Money scale</label>
+	</div>
+    </div>
+ 
+ 	<div class="row">
+    <div class="col-xs-12 text-center product">
+ 		<input type="checkbox" id="billcounter" name="product" value="billcounter">
+ 		<label for="billcounter">Bill counter</label>
+ 	</div>
+    </div>
+
+	<div class="row">
+    <div class="col-xs-12 text-center product">
+		<input type="checkbox" id="cashdrawer" name="product" value="cashdrawer">
+		<label for="cashdrawer">Cash drawer</label>
+	</div>
+    </div>
+</fieldset> 
+
+ <div class="row">
+<div class="col-xs-12 text-center submit">
+	<button type="submit" id="submit" class="btn btn-primary text-center">Submit</button>
+</div>
+  </div>
+</body>
+          </html>
+  
+  
+</body>
+</html>

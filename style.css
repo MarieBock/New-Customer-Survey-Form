@@ -1,0 +1,68 @@
+body {
+  background-color: lightgray;
+}
+
+
+select {
+    width: 150px;
+}
+
+.input,
+.product input {
+  width: 20px;
+}
+.col-xs-12.text-center {
+    padding-top: 10px;
+}
+
+legend.description {
+    padding-top: 25px;
+}
+ 
+
+legend {
+    text-align: center;
+    font-size:1.2em;
+    color: black;
+     
+}
+
+fieldset {
+     
+    border-top: 1px solid black;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    margin: 0 auto;
+}
+
+ 
+ 
+checkbox {
+  margin-right:100px;
+} 
+textarea,
+input {
+    width: 150px;
+    }
+ 
+label {
+display:inline-block;
+width:140px;
+margin-right:10px;
+text-align:left;
+vertical-align: top;
+}
+
+input[type="radio"] {
+    width: 10px;
+}
+.col-xs-12.text-center.submit {
+  padding-top: 50px;
+}
+
+.welcome {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
